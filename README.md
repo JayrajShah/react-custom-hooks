@@ -18,6 +18,8 @@ const Home = () => {
     // Some API called
 
     // Only logs when 'debug=true' in search parameters
+    // http://localhost:5173/?debug=true#/home
+    // http://localhost:5173/home?debug=true
     logger("api called", { message: "api works" });
   }, [logger]);
 
